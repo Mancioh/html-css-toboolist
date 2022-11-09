@@ -1,0 +1,110 @@
+
+/* Header */
+header{
+    height: 80px;
+    background-color: #fff;
+    padding-left: 20px;
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+    padding-top: 2px;
+    vertical-align: middle;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 50px;
+    display: inline;
+    line-height: 80px;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Main */
+body{
+    background-color: #F6F8F9;
+}
+
+.head-container{
+    background-color: #fff;
+    width: 50%;
+    height: 60px;
+    margin: 30px auto 5px auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.container{
+    background-color: #fff;
+    width: 50%;
+    height: 570px;
+    margin: 0 auto 70px auto;
+    border-radius: 0 0 10px 10px;
+    padding: 30px 30px;
+}
+
+.add-task{
+    margin: 15px 0 0 30px;
+    text-align: center;
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+.add-section{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid rgb(112, 112, 112);
+    color: rgb(112, 112, 112);
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+
+/* Container */
+
+ul{
+    margin-top: 15px;
+    list-style: none;
+    margin-left: 5px;
+    padding-left: 2px;
+}
+
+ul .done::before {
+    color: green;
+    content: '\2713' ;
+}
+
+ul .undone::before {
+    color: red;
+    content: '\2A2F';
+}
+
+
+li {
+    margin-bottom: 15px;
+}
+
+.tag{
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    height: 20px;
+    width: 60px;
+    color: white;
+    border-radius: 10px;
+    padding: 3px 5px;
+}
+
+.task-text{
+    margin-left: 10px;
+}
